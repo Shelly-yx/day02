@@ -1,0 +1,21 @@
+/* 重置样式*/
+html{
+    font-size:14px;
+    
+}
+body{
+    margin:0px;
+}
+ul,h1,h2,h3{
+    margin:0px;
+   padding:0px;
+}
+/*快捷导航*/
+.fast_nav.nav{
+float:left;
+
+}
+.fast_nav.ther{
+float:right;
+
+}

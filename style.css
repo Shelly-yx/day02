@@ -1,0 +1,44 @@
+.left{
+    color:red;
+    font-size:40px;
+}
+.right{
+    color:blue;
+    font-size:40px;
+}
+#t1{
+    color:blue;
+}
+#t2,.right{
+    border:1px solid #ccc;
+}
+h1#t1{
+    background-color:pink;
+}
+.header ul {
+    border:1px solid #ccc;
+    }
+ .content ul {
+        border:1px solid #ccc;
+        }   
+        .header>ul>li{
+            background-color: pink;
+            }
+        
+            .content>ul>li{
+                background-color: pink;
+                }
+            
+        
+        .header>ul>ul>li:nth-child(2){
+            background-color: pink;
+            }
+
+    .header>ul>li :hover{
+        background-color: pink;
+        }
+
+        ul>ul>li::after{
+          content:"hello";
+        }
+       
